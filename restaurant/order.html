@@ -36,6 +36,12 @@
             text-decoration: dotted;
         }
     </style>
+    <script>
+        function pop()
+        {
+            alert("Your Order is placed Successfully");
+        }
+    </script>
 </head>
 <body>
     <img src="restaurant3.jpg" alt="food" height="150px" width="76%" style="margin-left: 310px;float:right;">
@@ -123,7 +129,7 @@
                 </td>
                 </tr>
                 <tr>
-                    <td><button style="width:200px"><a href="Submit.html" target="_self" style="text-decoration: none;color:white"> Order</a></button></td>
+                    <td><button style="width:200px" onclick="pop()"><a href="Submit.html" target="_self" style="text-decoration: none;color:white" > Order</a></button></td>
                     <td><button style="width:200px">Cancel</button></td>
                 </tr>
                </table>
