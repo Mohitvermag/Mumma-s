@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Your Food- Mumma's Cafe</title>
+    <link rel="icon" href="logo.jpg">
+    <style>
+        input{
+            width:200px;
+            height:20px;
+            border:2px solid orangered
+        }
+        input:hover{
+            border:2px solid blue;
+        }
+        label{
+            font-family: cursive;
+            font-size: 15px;
+        }
+        button{
+            background-color: red;
+            color:white;
+            height:30px;
+            border:2px solid red;
+            box-shadow: 2px 2px 8px blue;
+            font-size: 20px;
+        }
+        select{
+            border:2px solid red;
+            width:207px
+        }
+        h1{
+            color:darkslategray;
+            text-decoration: dotted;
+        }
+    </style>
+</head>
+<body>
+    <img src="restaurant3.jpg" alt="food" height="150px" width="76%" style="margin-left: 310px;float:right;">
+    <img src="symbol.jpg" alt="cafe" height="150px" width="300px" style="float:left;margin-top: -150px;">
+    <br><hr>
+    <div style="background-color: burlywood;height:390px;width:100%;">
+    <div style="border:2px solid brown">
+        <center>
+        <h1><u>Order Details</u></h1>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label>Enter Your Name</label>
+                    </td>
+                    <td><input type="text" placeholder="Full Name" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Enter Delivery Address</label>
+                    </td>
+                    <td><input type="text" placeholder="Address" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">PIN Code</label></td>
+                    <td><input type="number" placeholder="Enter PIN Code" required></td>
+                </tr>
+                <tr>
+                    <td><label>Choose Your Desired Food</label></td>
+                    <td><select>
+                        <option value="Choose Here">Choose Here</option>
+                        <option value="">Pizza</option>
+                        <option value="">Chole Bhature</option>
+                        <option value="">Pav Bhaji</option>
+                        <option value="">Chilli Potato</option>
+                        <option value="">Hakka Noodles</option>
+                        <option value="">Momos Platter</option>
+                        <option value="">Paneer Roll</option>
+                        <option value="">Spring Roll</option>
+                        <option value="">Burger French Fries</option>
+                        <option value="">Butter Roti</option>
+                        <option value="">Paneer Tikka Masala</option>
+                        <option value="">Dal Makhni</option>
+                        <option value="">Kdhai Paneer</option>
+                        <option value="">Masala Pulav</option>
+                        <option value="">Mix Veg</option>
+                        <option value="">Laccha Paratha</option>
+                        <option value="">Matar Paneer</option>
+                        <option value="">Amritsari Kulcha</option>
+                        <option value="">Special Thali</option>
+                        <option value="">Caesar Salad</option>
+                        <option value="">Chana Sabji</option>
+                        <option value="">Cream Cheese Pasta</option>
+                        <option value="">Dosa</option>
+                        <option value="">Crispy Fried Cheese</option>
+                        <option value="">Idli</option>
+                        <option value="">Pasta</option>
+                        <option value="">Saag</option>
+                        <option value="">Vegetable Soup</option>
+                        <option value="">Tandoori Roti</option>
+                        <option value="">Cold Coffee</option>
+                        <option value="">Cold Drink</option>
+                        <option value="">Hot Cofee</option>
+                        <option value="">Lassi</option>
+                        <option value="">Tea</option>
+                        <option value="">Kulfi</option>
+                        <option value="">Ice Cream</option>
+                        <option value="">Real Dessert</option>
+                        <option value="">Pastry</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Quantity</label></td>
+                        <td><input type="number" placeholder="eg: 1,2,3,..." required></td>
+                </tr>
+                <tr>
+                    <td><label>Payment Method</label></td>
+                <td>
+                    <input type="radio" name="payment" style="width: 20px;">Paytm <br>
+                    <input type="radio" name="payment" style="width: 20px;">Credit Card <br>
+                    <input type="radio" name="payment" style="width: 20px;">Debit Card <br>
+                    <input type="radio" name="payment" style="width: 20px;">Cash On Delivery <br>
+                </td>
+                </tr>
+                <tr>
+                    <td><button style="width:200px"><a href="Submit.html" target="_self" style="text-decoration: none;color:white"> Order</a></button></td>
+                    <td><button style="width:200px">Cancel</button></td>
+                </tr>
+               </table>
+        </form>
+        </center>
+    </div>
+    </div>
+    
+
+
+</body>
+</html>
